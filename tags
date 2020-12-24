@@ -1,0 +1,44 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BasicBlock	notion_ics.py	/^from notion.block import BasicBlock$/;"	i
+Calendar	notion_ics.py	/^from icalendar import Calendar, Event$/;"	i
+Calendar	webapp.py	/^from icalendar import Calendar, Event$/;"	i
+CalendarView	notion_ics.py	/^from notion.collection import CalendarView$/;"	i
+Event	notion_ics.py	/^from icalendar import Calendar, Event$/;"	i
+Event	webapp.py	/^from icalendar import Calendar, Event$/;"	i
+Flask	webapp.py	/^from flask import Flask, request, make_response$/;"	i
+NotionClient	make_ics.py	/^from notion.client import NotionClient$/;"	i
+NotionClient	notion_ics.py	/^from notion.client import NotionClient$/;"	i
+NotionClient	webapp.py	/^from notion.client import NotionClient$/;"	i
+User	notion_ics.py	/^from notion.user import User$/;"	i
+app	webapp.py	/^app = Flask(__name__)$/;"	v
+base64	webapp.py	/^import base64$/;"	i
+cal	make_ics.py	/^cal = get_ical(client, settings['calendar_url'], settings['title_format'])$/;"	v
+client	make_ics.py	/^client = NotionClient(settings['token'], monitor=False)$/;"	v
+client	webapp.py	/^client = NotionClient(settings['token'], monitor=False)$/;"	v
+create_url	webapp.py	/^def create_url():$/;"	f
+datetime	notion_ics.py	/^from datetime import datetime$/;"	i
+datetime	webapp.py	/^from datetime import datetime, timedelta$/;"	i
+get_ical	make_ics.py	/^from notion_ics import get_ical$/;"	i
+get_ical	notion_ics.py	/^def get_ical(client, calendar_url, title_format):$/;"	f
+get_ical	webapp.py	/^from notion_ics import get_ical$/;"	i
+index	webapp.py	/^    index = f.read()$/;"	v
+json	make_ics.py	/^import json$/;"	i
+json	notion_ics.py	/^import json$/;"	i
+json	webapp.py	/^import json$/;"	i
+make_ics	webapp.py	/^def make_ics():$/;"	f
+make_response	webapp.py	/^from flask import Flask, request, make_response$/;"	i
+os	webapp.py	/^import os$/;"	i
+recalc_url	create_url.html	/^            function recalc_url() {$/;"	f
+request	webapp.py	/^from flask import Flask, request, make_response$/;"	i
+settings	make_ics.py	/^    settings = json.load(f)$/;"	v
+settings	webapp.py	/^    settings = json.load(f)$/;"	v
+sys	make_ics.py	/^import sys$/;"	i
+sys	webapp.py	/^import sys$/;"	i
+timedelta	webapp.py	/^from datetime import datetime, timedelta$/;"	i
+token	webapp.py	/^token = settings['token']$/;"	v
+traceback	webapp.py	/^import traceback$/;"	i
